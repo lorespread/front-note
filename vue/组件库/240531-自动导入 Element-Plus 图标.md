@@ -7,8 +7,9 @@ Element Plus 对于图标的自动导入描述如下：
 
 使用 unplugin-icons 和 unplugin-auto-import 从 iconify 中自动导入任何图标集。 您可以参考此模板
 
-参考模板地址：https://github.com/sxzz/element-plus-best-practices/blob/db2dfc983ccda5570033a0ac608a1bd9d9a7f658/vite.config.ts#L21-L58
 ```
+
+参考模板地址：[链接地址](https://github.com/sxzz/element-plus-best-practices/blob/db2dfc983ccda5570033a0ac608a1bd9d9a7f658/vite.config.ts#L21-L58)
 
 ## 1 安装依赖包
 
@@ -187,10 +188,11 @@ IconsResolver({
 	...
 })
 ```
+
 那么在使用图标组件时，按照之前的说明，有两种方式
 
-- gregeo-ep-Plus
-- GregeoEpPlus
+-   gregeo-ep-Plus
+-   GregeoEpPlus
 
 ## collection
 
@@ -208,6 +210,3 @@ IconsResolver({
 ## icon
 
 则是图标集中某个图标的 name
-
-
-
