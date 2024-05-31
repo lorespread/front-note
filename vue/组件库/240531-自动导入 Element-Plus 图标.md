@@ -108,7 +108,8 @@ export default getPlugins
 可以看到，正确的代码比错误的使用，差异就在于 `ep` 这个前缀。
 
 **解释**
-使用组件解析器 IconsResolver 时，必须遵循名称转换才能正确推断图标，格式如下：
+
+> 使用组件解析器 IconsResolver 时，必须遵循名称转换才能正确推断图标，格式如下：
 
 ```python
 🔥 {prefix}-{collection}-{icon}
