@@ -1,3 +1,5 @@
+[TOC]
+
 # Vite 配置自动导入 Element Plus 的 Icon 图标
 
 > Element Plus 官方文档对于 Icon 图标的自动导入，描述的很笼统。这里根据实际的操在进行记录
