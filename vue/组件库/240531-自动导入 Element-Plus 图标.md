@@ -209,4 +209,4 @@ IconsResolver({
 
 ## icon
 
-则是图标集中某个图标的 name
+则是图标集中某个图标的 name，例如 Edit，Plus 等
