@@ -102,7 +102,7 @@ export default getPlugins
 使用组件解析器 IconsResolver 时，必须遵循名称转换才能正确推断图标，格式如下：
 
 ```python
-{prefix}-{collection}-{icon}
+🔥 {prefix}-{collection}-{icon}
 ```
 
 所以在模板中使用图标使，有两种方式
