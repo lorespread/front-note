@@ -1,4 +1,11 @@
-[TOC]
+-   [Vite 配置自动导入 Element Plus 的 Icon 图标](#vite-配置自动导入-element-plus-的-icon-图标)
+    -   [1 安装依赖包](#1-安装依赖包)
+    -   [2 修改配置文件](#2-修改配置文件)
+    -   [3 使用图标](#3-使用图标)
+    -   [4 IconsResolver 配置](#4-iconsresolver-配置)
+        -   [prefix](#prefix)
+        -   [collection](#collection)
+        -   [icon](#icon)
 
 # Vite 配置自动导入 Element Plus 的 Icon 图标
 
@@ -170,7 +177,7 @@ interface ComponentResolverOption {
 {prefix}-{collection}-{icon}
 ```
 
-## prefix
+### prefix
 
 ```python
     /**
@@ -196,7 +203,7 @@ IconsResolver({
 -   gregeo-ep-Plus
 -   GregeoEpPlus
 
-## collection
+### collection
 
 ```python
     /**
@@ -209,6 +216,6 @@ IconsResolver({
 
 可以看到 enabledCollections 可以为单个字符串，或者是字符串数组。图标集可参考 https://icon-sets.iconify.design/
 
-## icon
+### icon
 
 则是图标集中某个图标的 name，例如 Edit，Plus 等
