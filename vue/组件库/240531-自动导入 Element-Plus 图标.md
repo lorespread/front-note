@@ -1,11 +1,11 @@
--   [Vite 配置自动导入 Element Plus 的 Icon 图标](#vite-配置自动导入-element-plus-的-icon-图标)
-    -   [1 安装依赖包](#1-安装依赖包)
-    -   [2 修改配置文件](#2-修改配置文件)
-    -   [3 使用图标](#3-使用图标)
-    -   [4 IconsResolver 配置](#4-iconsresolver-配置)
-        -   [prefix](#prefix)
-        -   [collection](#collection)
-        -   [icon](#icon)
+- [Vite 配置自动导入 Element Plus 的 Icon 图标](#vite-配置自动导入-element-plus-的-icon-图标)
+	- [1 安装依赖包](#1-安装依赖包)
+	- [2 修改配置文件](#2-修改配置文件)
+	- [3 使用图标](#3-使用图标)
+	- [4 IconsResolver 配置](#4-iconsresolver-配置)
+		- [prefix](#prefix)
+		- [collection](#collection)
+		- [icon](#icon)
 
 # Vite 配置自动导入 Element Plus 的 Icon 图标
 
@@ -36,7 +36,7 @@ import vue from '@vitejs/plugin-vue'
 // 导入 mock 组件
 import { viteMockServe } from 'vite-plugin-mock'
 
-// 导入 mock 组件
+// 导入 legacy 组件
 import legacy from '@vitejs/plugin-legacy'
 
 import AutoImport from 'unplugin-auto-import/vite'
